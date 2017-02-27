@@ -1,0 +1,29 @@
+ > IDENTIFICATION :
+
+identify variables (x) by ARJ
+identify strings   (x) by ARJ
+identify number    (x) by ARJ
+identify operators (x) by ARJ
+identify print     (x) by ARJ
+  
+ > PRINT
+  
+print string       (x) by ARJ
+print number       (x) by ARJ
+print variables    (x) by ARJ
+
+ > VARIABLES
+
+overriding taken care of (x) by ARJ
+
+...TODO...
+
+[] operations (add etc)
+[] concatenation 
+[] ifs
+[ ] loops
+ |___() for
+ |___() while
+[] functions
+[] classes
+
