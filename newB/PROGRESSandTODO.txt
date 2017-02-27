@@ -16,6 +16,9 @@ print variables    (x) by ARJ
 
 overriding taken care of (x) by ARJ
 
+NOTES :
+white spaces completely ignored !
+
 ...TODO...
 
 [] operations (add etc)
