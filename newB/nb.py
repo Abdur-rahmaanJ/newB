@@ -1,11 +1,12 @@
-#.*.F means function
-#license: creative commons cc0 1.0 (public domain) 
-#http://creativecommons.org/publicdomain/zero/1.0/ 
-#7c7,14
+#### license: creative commons cc0 1.0 (public domain) 
+#### http://creativecommons.org/publicdomain/zero/1.0/7c7,14
+#-> codeinfig.wordpress.com addition
+
+# *F in function names stands for function
 
 import re
 
-operators =['+','-']
+operators = ['+','-']
 
 with open('txt.nub','r+') as f:
 	filecontent = f.read()+' <EOF> '
