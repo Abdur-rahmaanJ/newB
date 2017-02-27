@@ -1,0 +1,36 @@
+# INLINE FUNCTIONS EXAMPLE
+f (x) = x^3 - 2x # Creates inline function with parameter X
+print f(2), f(3)
+
+
+# INFINITE AMOUNT OF PARAMETERS HANDLING
+multiply (...numbers) = numbers.apply(action.multiply)
+print multiply(2, 3) # Will print 6
+
+my_array = [ 2, 3 ]
+# Will convert array to multiple parameters
+# Function will be called with 2 arguments: my_array[1], my_array[2]
+print multiply(...my_array)
+
+
+# MULTILINE FUNCTIONS
+countdown (count) = function {
+  if count < 0 then return
+  
+  for counter = count to 1 {
+    print counter
+  }
+  print 'go!'
+}
+
+# Will print:
+# 3
+# 2
+# 1
+# go!
+countdown 3
+
+# Will not print anyting
+#
+# Because count is less than zero(0)
+countdown -1
