@@ -1,0 +1,15 @@
+my_array = array(1, 'two', 3.0, 4, 'five') # Simple array with different types of values
+print my_arrayp
+print my_array(2) # prints 2nd element: two
+
+my_array = array 5 # array with 5 elements
+my_array.fillWith(1) # array method for setting all array's values
+print my_array
+
+my_array = array of number 5 # Contains 5 numbers. On passing wrong value throws exception
+print my_array # will print zeros(default value of all numbers
+
+my_array = array of boolean 3x3 # Boolean array with 2 dimensions
+print my_array # outputs 2d array
+print my_array(2x3) # Gets 2nd row, then 3rd element of row
+print my_array(1) # Prints 1st row
