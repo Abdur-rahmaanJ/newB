@@ -1,0 +1,4 @@
+sum = x + y # Sum automatiaclly setting up as dynamic referenced variable
+input number x # input takes type that should be read
+input number y
+print sum # Prints text on screen with new line

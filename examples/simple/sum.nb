@@ -1,4 +1,0 @@
-sum = x + y # Sum automatiaclly setting up as dynamic referenced variable
-input number x
-input number y
-print sum
