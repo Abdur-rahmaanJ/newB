@@ -1,5 +1,14 @@
 #.*.F means function
 
+#from sys import argv
+#if len(argv) > 1:
+#    if len(argv[1]):
+#        if ".nub" in argv[1]:
+#           filepath = argv[1]
+#
+#with open(filepath,'r+') as f:
+#proposed by codeinfig.wordpress.com
+
 import re
 
 operators = ['+','-']
