@@ -30,7 +30,7 @@ def parseF(textlist):
 
 
 
-		if cur_token == 'print':
+		if cur_token == 'output':
 			#print(cur_token)
 			#print(next_token)
 			if next_token in values :
