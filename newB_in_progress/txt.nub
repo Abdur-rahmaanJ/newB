@@ -1,0 +1,4 @@
+output 'ege'
+
+if x=3 then output 'done'
+when x=4 then output 'humm' 
