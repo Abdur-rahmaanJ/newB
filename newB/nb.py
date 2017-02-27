@@ -1,4 +1,7 @@
 #.*.F means function
+#license: creative commons cc0 1.0 (public domain) 
+#http://creativecommons.org/publicdomain/zero/1.0/ 
+#7c7,14
 
 import re
 
