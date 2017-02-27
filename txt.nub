@@ -1,0 +1,12 @@
+'bfgrbrfgbfrgn'
+x = 20
+x+1
+x=3
+y=5
+num_of_people=9
+fruits = 40
+print y
+print x
+print num_of_people
+print 'aaaaaaaaa'
+print 3
