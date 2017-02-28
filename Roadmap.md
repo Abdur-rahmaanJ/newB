@@ -3,28 +3,28 @@
 ```
 [ ] Tokenizer module
  |__ [ ] Token class
- |    |__ [ ] Type info
- |    |__ [ ] Value
- |    |__ [ ] Position: index, line, position at line
+ |    |___ () Type info
+ |    |___ () Value
+ |    |___ () Position: index, line, position at line
  |
  |__ [ ] Rules list
- |    |__ [ ] Regex rule
- |    |__ [ ] Parsing layer(default: 'main')
- |    |__ [ ] Action on parse: ignore(like whitespaces), change layer(For strings tokenization)
+ |    |___ () Regex rule
+ |    |___ () Parsing layer(default: 'main')
+ |    |___ () Action on parse: ignore(like whitespaces), change layer(For strings tokenization)
  |
  |__ [ ] Tokenization
  
 [ ] Parser module
  |__ [ ] AST
- |    |__ [ ] Block
- |    |__ [ ] Expression
- |    |__ [ ] Binary(2) operation
- |    |__ [ ] Unary(1) operation
- |    |__ [ ] Constant
- |    |__ [ ] Variable
- |    |__ [ ] Class
- |    |__ [ ] Function
- |    |__ [ ] Special constructions(loops, etc)
+ |    |___ () Block
+ |    |___ () Expression
+ |    |___ () Binary(2) operation
+ |    |___ () Unary(1) operation
+ |    |___ () Constant
+ |    |___ () Variable
+ |    |___ () Class
+ |    |___ () Function
+ |    |___ () Special constructions(loops, etc)
  |
  |___ [ ] Parsing
 ```
