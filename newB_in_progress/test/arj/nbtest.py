@@ -1,4 +1,4 @@
-#.*.F means function
+#.*.F means function #see line 28 adding to dict not working
 
 import re
 
@@ -25,7 +25,7 @@ def parseF(textlist):
 		index=data.index(cur_token)
 
 		if cur_token == 'ASSIGN':
-			values[previous_token]=next_token #adding to dict
+			values[previous_token]=next_token #adding to dict not working
 
 		elif cur_token == 'output':
 			if next_token in values :
