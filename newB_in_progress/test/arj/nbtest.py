@@ -1,4 +1,5 @@
 #.*.F means function #see line 28 adding to dict not working
+#resolved just wrong debug
 
 import re
 
